@@ -42,4 +42,17 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>maven.newtention-snapshots</name>
+			<url>http://repo.v402.rz.ham.next-audience.net:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+		<repository>
+			<id>central</id>
+			<name>maven.newtention-releases</name>
+			<url>http://repo.v402.rz.ham.next-audience.net:8081/artifactory/libs-release-local</url>
+		</repository>
+	</distributionManagement>
+
 </project>
